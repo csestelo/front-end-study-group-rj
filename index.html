@@ -2,50 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="images/icon.ico" />
     <title>Challenge 1</title>
 </head>
 <body style="background-color: black">
-<header>
+<header id="home">
     <img src="images/logo.png" alt="logo-womakers" width="160" height="60">
     <nav style="display: inline-flex">
         <ul>
-            <li style="display: inline-flex"><a href="" style="text-decoration: none; color: aliceblue">HOME</a></li>
-            <li style="display: inline-flex"><a href="" style="text-decoration: none; color: aliceblue">SERVIÇOS</a></li>
-            <li style="display: inline-flex"><a href="" style="text-decoration: none; color: aliceblue">PORTFÓLIO</a></li>
-            <li style="display: inline-flex"><a href="" style="text-decoration: none; color: aliceblue">SOBRE MIM</a></li>
-            <li style="display: inline-flex"><a href="" style="text-decoration: none; color: aliceblue">CONTATO</a></li>
+            <li style="display: inline-flex"><a href="#home" style="text-decoration: none; color: aliceblue">HOME</a></li>
+            <li style="display: inline-flex"><a href="#jobs" style="text-decoration: none; color: aliceblue">SERVIÇOS</a></li>
+            <li style="display: inline-flex"><a href="#portfolio" style="text-decoration: none; color: aliceblue">PORTFÓLIO</a></li>
+            <li style="display: inline-flex"><a href="#about me" style="text-decoration: none; color: aliceblue">SOBRE MIM</a></li>
+            <li style="display: inline-flex"><a href="#contact" style="text-decoration: none; color: aliceblue">CONTATO</a></li>
         </ul>
     </nav>
 </header>
-<section class="slide-show-container" style="background-image: url(images/Slider.png); height: 600px">
+<section id="slider" class="slide-show-container" style="background-image: url(images/Slider.png); height: 600px">
     <div style="background-color: rgba(245,30,76,0.7); height: inherit; width: inherit">
-        <article class="slide-fade">
+        <div class="slide-fade">
             <img src="images/slider01.png" alt="slide-1" style="height: 250px; vertical-align:middle; float: right">
             <div class="text">
                 <strong>BEM VIND@</strong>
                 <p>CURABITUR IACULIS</p>
                 <p>Vamos dar as boas vindas ... bla bla</p>
             </div>
-        </article>
-        <article class="slide-fade">
+        </div>
+        <div class="slide-fade">
             <img src="images/Slider02.png" alt="slide-2" style="height: 250px; vertical-align:middle; float: right">
             <div class="text">
                 <p>EVENTO DE PROGRAMAÇÃO FRONTEND</p>
                 <p>CSS CSS CSS</p>
             </div>
-        </article>
-        <article class="slide-fade">
+        </div>
+        <div class="slide-fade">
             <img src="images/Slider03.png" alt="slide-3" style="height: 250px; vertical-align:middle; float: right">
             <div class="text">
                 <p>AO INFINITO E ALÉM!</p>
                 <p>Buzz Lightyear, patrulheiro da aliança galática =)</p>
             </div>
-        </article>
+        </div>
     </div>
 </section>
-<section>
+<section id="jobs">
     <header style="text-align: center">
-        <h3 style="color: #ff0b68; padding-top: 3%; font-size: 250%">Serviços</h3>
+        <h1 style="color: #ff0b68; padding-top: 3%; font-size: 250%">Serviços</h1>
         <p style="color: #ffbf1d">Aqui vamos colocar qualquer frase explicativa sobre os icones abaixo.</p>
     </header>
     <nav style="display: inline-flex; color: #ffbf1d">
@@ -70,9 +71,9 @@
         </figure>
     </nav>
 </section>
-<section>
+<section id="portfolio">
     <header style="text-align: center">
-        <h3 style="color: #ff0b68; padding-top: 3%; font-size: 250%">Meus trabalhos</h3>
+        <h1 style="color: #ff0b68; padding-top: 3%; font-size: 250%">Meus trabalhos</h1>
         <p style="color: #ffbf1d">Aqui vamos falar sobre o meu trabalho.</p>
     </header>
     <nav style="display: inline-flex; color: #ffbf1d">
@@ -105,9 +106,9 @@
         </figure>
     </nav>
 </section>
-<section style="text-align: center">
+<section id="about me" style="text-align: center">
     <header>
-        <h3 style="color: #ff0b68; padding-top: 3%; font-size: 250%">Quem sou eu</h3>
+        <h1 style="color: #ff0b68; padding-top: 3%; font-size: 250%">Quem sou eu</h1>
         <p style="color: #ffbf1d">Quem será?</p>
     </header>
     <figure style="color: #ffbf1d">
@@ -136,7 +137,7 @@
             </nav>
         </figcaption>
     </figure>
-    <header>
+    <div>
         <h3 style="color: #ff0b68; padding-top: 3%; font-size: 250%">Sobre mim</h3>
         <p style="color: #faffbd">Pat Peoples, um ex-professor de história na casa dos 30 anos, acaba de sair de uma instituição psiquiátrica.
             Convencido de que passou apenas alguns meses naquele “lugar ruim”, Pat não se lembra do que o fez ir para lá.
@@ -146,8 +147,8 @@
             Pat, agora um viciado em exercícios físicos, está determinado a reorganizar as coisas e reconquistar sua mulher,
             porque acredita em finais felizes e no lado bom da vida. À medida que seu passado aos poucos ressurge em sua memória, Pat começa
             a entender que "é melhor ser gentil que ter razão" e faz dessa convicção sua meta. </p>
-    </header>
-    <header>
+    </div>
+    <div>
         <h2 style="color: #ffbf1d; text-align: left">Habilidades</h2>
         <ul style="list-style-type: none">
             <li style="border: 2px solid whitesmoke; padding: 3px; width: 25%; color: crimson; text-align: left">Javascript</li>
@@ -155,16 +156,16 @@
             <li style="border: 2px solid whitesmoke; padding: 3px; width: 25%; color: crimson; text-align: left">JQuery</li>
             <li style="border: 2px solid whitesmoke; padding: 3px; width: 25%; color: crimson; text-align: left">Wordpress</li>
         </ul>
-    </header>
+    </div>
 </section>
-<section style="text-align: center">
+<section id="contact" style="text-align: center">
     <header>
-        <h3 style="color: #ff0b68; padding-top: 3%; font-size: 250%">Contato</h3>
+        <h1 style="color: #ff0b68; padding-top: 3%; font-size: 250%">Contato</h1>
         <p style="color: #ffbf1d">Quentin Jacobsen tem uma paixão platônica pela magnífica vizinha e colega de escola Margo Roth Spiegelman.</p>
-        <p style="color: #ffbf1d">sestelos@gmail.com</p>
-        <p style="color: #ffbf1d">+55 21 98899-3752</p>
+        <p><a style="color: #ffbf1d" href="mailto:sestelos@gmail.com">sestelos@gmail.com</a></p>
+        <p><a style="color: #ffbf1d" href="tel:+5521988993752">+55 21 98899-3752</a></p>
     </header>
-    <header>
+    <div>
         <h2 style="text-align: center; color: #faffbd">Midias</h2>
         <nav>
             <ul style="display: inline-flex; list-style-type: none">
@@ -200,10 +201,10 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </div>
 </section>
 <footer>
-    <p style="color: #faffbd; text-align: center">Women + Tech = < /strong ></p>
+    <p style="color: #faffbd; text-align: center">Women + Tech = &lt; /strong &gt;</p>
 </footer>
 </body>
 </html>
