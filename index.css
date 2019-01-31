@@ -1,0 +1,29 @@
+body {
+    background-color: black
+}
+
+#home li, nav {
+    display: inline-flex;
+}
+
+#home a {
+    text-decoration: none; color: aliceblue
+}
+
+#slider {
+    background-image: url(images/Slider.png); height: 600px
+}
+
+#slider-background {
+     background-color: rgba(245,30,76,0.7); height: inherit; width: inherit
+}
+
+#slider-background img {
+    height: 250px; vertical-align:middle; float: right
+}
+
+section .subtitle {
+    text-align: center; color: #ff0b68; padding-top: 3%; font-size: 250%
+}
+
+section.header.p

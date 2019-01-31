@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <link rel="icon" href="images/icon.ico" />
     <title>Challenge 1</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<body style="background-color: black">
+<body>
 <header id="home">
     <img src="images/logo.png" alt="logo-womakers" width="160" height="60">
-    <nav style="display: inline-flex">
+    <nav>
         <ul>
-            <li style="display: inline-flex"><a href="#home" style="text-decoration: none; color: aliceblue">HOME</a></li>
-            <li style="display: inline-flex"><a href="#jobs" style="text-decoration: none; color: aliceblue">SERVIÇOS</a></li>
-            <li style="display: inline-flex"><a href="#portfolio" style="text-decoration: none; color: aliceblue">PORTFÓLIO</a></li>
-            <li style="display: inline-flex"><a href="#about me" style="text-decoration: none; color: aliceblue">SOBRE MIM</a></li>
-            <li style="display: inline-flex"><a href="#contact" style="text-decoration: none; color: aliceblue">CONTATO</a></li>
+            <li><a href="#home" >HOME</a></li>
+            <li><a href="#jobs" >SERVIÇOS</a></li>
+            <li><a href="#portfolio" >PORTFÓLIO</a></li>
+            <li><a href="#about-me" >SOBRE MIM</a></li>
+            <li><a href="#contact" >CONTATO</a></li>
         </ul>
     </nav>
 </header>
-<section id="slider" class="slide-show-container" style="background-image: url(images/Slider.png); height: 600px">
-    <div style="background-color: rgba(245,30,76,0.7); height: inherit; width: inherit">
+<section id="slider" class="slide-show-container">
+    <div id="slider-background">
         <div class="slide-fade">
-            <img src="images/slider01.png" alt="slide-1" style="height: 250px; vertical-align:middle; float: right">
+            <img src="images/slider01.png" alt="slide-1">
             <div class="text">
                 <strong>BEM VIND@</strong>
                 <p>CURABITUR IACULIS</p>
@@ -29,14 +30,14 @@
             </div>
         </div>
         <div class="slide-fade">
-            <img src="images/Slider02.png" alt="slide-2" style="height: 250px; vertical-align:middle; float: right">
+            <img src="images/Slider02.png" alt="slide-2">
             <div class="text">
                 <p>EVENTO DE PROGRAMAÇÃO FRONTEND</p>
                 <p>CSS CSS CSS</p>
             </div>
         </div>
         <div class="slide-fade">
-            <img src="images/Slider03.png" alt="slide-3" style="height: 250px; vertical-align:middle; float: right">
+            <img src="images/Slider03.png" alt="slide-3">
             <div class="text">
                 <p>AO INFINITO E ALÉM!</p>
                 <p>Buzz Lightyear, patrulheiro da aliança galática =)</p>
@@ -46,7 +47,7 @@
 </section>
 <section id="jobs">
     <header style="text-align: center">
-        <h1 style="color: #ff0b68; padding-top: 3%; font-size: 250%">Serviços</h1>
+        <h1 class="subtitle">Serviços</h1>
         <p style="color: #ffbf1d">Aqui vamos colocar qualquer frase explicativa sobre os icones abaixo.</p>
     </header>
     <nav style="display: inline-flex; color: #ffbf1d">
@@ -72,8 +73,8 @@
     </nav>
 </section>
 <section id="portfolio">
-    <header style="text-align: center">
-        <h1 style="color: #ff0b68; padding-top: 3%; font-size: 250%">Meus trabalhos</h1>
+    <header>
+        <h1 class="subtitle">Meus trabalhos</h1>
         <p style="color: #ffbf1d">Aqui vamos falar sobre o meu trabalho.</p>
     </header>
     <nav style="display: inline-flex; color: #ffbf1d">
@@ -106,9 +107,9 @@
         </figure>
     </nav>
 </section>
-<section id="about me" style="text-align: center">
+<section id="about-me">
     <header>
-        <h1 style="color: #ff0b68; padding-top: 3%; font-size: 250%">Quem sou eu</h1>
+        <h1 class="subtitle">Quem sou eu</h1>
         <p style="color: #ffbf1d">Quem será?</p>
     </header>
     <figure style="color: #ffbf1d">
@@ -138,7 +139,7 @@
         </figcaption>
     </figure>
     <div>
-        <h3 style="color: #ff0b68; padding-top: 3%; font-size: 250%">Sobre mim</h3>
+        <h3 class="subtitle">Sobre mim</h3>
         <p style="color: #faffbd">Pat Peoples, um ex-professor de história na casa dos 30 anos, acaba de sair de uma instituição psiquiátrica.
             Convencido de que passou apenas alguns meses naquele “lugar ruim”, Pat não se lembra do que o fez ir para lá.
             O que sabe é que Nikki, sua esposa, quis que ficassem um "tempo separados". Tentando recompor o quebra-cabeças de sua memória,
@@ -158,9 +159,9 @@
         </ul>
     </div>
 </section>
-<section id="contact" style="text-align: center">
+<section id="contact">
     <header>
-        <h1 style="color: #ff0b68; padding-top: 3%; font-size: 250%">Contato</h1>
+        <h1 class="subtitle">Contato</h1>
         <p style="color: #ffbf1d">Quentin Jacobsen tem uma paixão platônica pela magnífica vizinha e colega de escola Margo Roth Spiegelman.</p>
         <p><a style="color: #ffbf1d" href="mailto:sestelos@gmail.com">sestelos@gmail.com</a></p>
         <p><a style="color: #ffbf1d" href="tel:+5521988993752">+55 21 98899-3752</a></p>
