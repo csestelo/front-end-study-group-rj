@@ -2,6 +2,10 @@ body {
     background-color: black
 }
 
+section #about-me #contact {
+    text-align: center
+}
+
 #home li, nav {
     display: inline-flex;
 }
@@ -22,8 +26,41 @@ body {
     height: 250px; vertical-align:middle; float: right
 }
 
+
 section .subtitle {
     text-align: center; color: #ff0b68; padding-top: 3%; font-size: 250%
 }
 
-section.header.p
+section > header > p {
+    color: #ffbf1d; text-align: center;
+}
+
+footer {
+    color: #faffbd; text-align: center
+}
+
+section > nav {
+    display: inline-flex; color: #ffbf1d
+}
+
+figure > figcaption > p:nth-child(1) {
+    text-align: center;
+}
+
+figure > figcaption > p:nth-child(2) {
+    color: aliceblue; text-align: center;
+}
+
+nav > ul > li {
+    display: inline-flex
+}
+
+/*.icons {*/
+    /*display: inline-flex; list-style-type: none; align-items: center;*/
+    /*justify-content: center;*/
+/*}*/
+
+/*.icons > li {*/
+  /*flex: 33.33%;*/
+  /*padding: 5px;*/
+/*}*/
